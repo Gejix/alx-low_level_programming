@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - prints string 
+ * main - prints string
  *
- * Return: always 0
+ * Return: 0 always
  */
 int main(void)
 {
