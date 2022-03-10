@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include<unisd.h>
 /**
- * main - Write a string to the standard error
+ * main - write a string to the standard error
  *
  * Return: 1 at the end
  */
