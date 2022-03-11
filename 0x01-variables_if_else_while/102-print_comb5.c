@@ -6,8 +6,9 @@
  */
 int main(void)
 {
-	int num1, num2, num3, num4, numOut1, numOut2;	
-	num1 = num2 = num3 = num4 = 48;
+	int num1, num2, num3, num4, numOut1, numOut2;
+	
+	num4 = 48;
 	while (num4 < 58)
 	{
 		num3 = 48;
