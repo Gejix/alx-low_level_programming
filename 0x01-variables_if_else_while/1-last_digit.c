@@ -1,17 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  *
  * main - determines if the value of the random number
  *
  * Return: always 0
- *
  *      
  */
 int main(void)
-
 {
 
 		int n, lastDigit;
