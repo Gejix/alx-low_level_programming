@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that will print all sigle digit numbers
- * followed by new line.
+ * 
  * Return: always 0
  */
 int main(void)
@@ -12,6 +12,5 @@ int main(void)
 	{
 		printf("%d\n", num);
 	}
-	putchar('\n');
 	return (0);
 }
