@@ -1,6 +1,6 @@
 #include <stdlib.h>
-
 #include <time.h>
+#include <stdio.h>
 /**
  * main - program ti find last digit of a number
  *
