@@ -30,7 +30,7 @@ while (num4 < 58)
 					putchar(num2);
 					putchar(num1);
 					if (num4 == 57 && num3 == 56 && num2 == 57 && num1 == 57)
-						break;	
+					break;
 					putchar(',');
 					putchar(' ');
 				}
