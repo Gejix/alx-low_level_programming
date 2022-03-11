@@ -4,7 +4,7 @@
  *
  * Return: always 0
  */
-int nain(void)
+int main(void)
 {
 	char alpha;
 
