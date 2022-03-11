@@ -2,11 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * main - A program to determine the value of the random number
  *
- * main - determines if the value of the random number
- *
- * Return: always 0
- *      
+ * Return: Alway 0
  */
 int main(void)
 {
