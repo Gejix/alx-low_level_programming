@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _islower - A program that would Show 1 if the input ia a 
- * lowercase character. Another case, show 0
+ * _islower - A program that would Show 1 if the inputs
+ * is a lowercase character. Another case, show 0
  *
  * @c: The character in ASCII code
  *
