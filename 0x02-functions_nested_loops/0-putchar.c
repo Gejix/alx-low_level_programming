@@ -5,9 +5,7 @@
  */
 int main(void)
 {
-	char alpha[] = "_putchar";
-
-	_putchar(alpha);
+	_putchar("_putchar");
 	_putchar('\n');
 
 	return (0);
