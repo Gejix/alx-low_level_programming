@@ -15,6 +15,6 @@ void print_alphat_x10(void)
 		{
 			_putchar(alpha);
 		}
-	_purchar('\n');
+	_putchar('\n');
 	}
 }
