@@ -16,7 +16,7 @@ int main(void)
 	for (c = 0; c < 48; c++)
 	{
 		z = x + y;
-		printf(", %ld" z);
+		printf(", %ld", z);
 		x = y;
 		y = z;
 	}
