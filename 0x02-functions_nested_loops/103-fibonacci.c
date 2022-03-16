@@ -13,7 +13,7 @@ int main(void)
 	x = 1;
 	y = 2;
 	z = outp = 0;
-	whaile (z <= 4000000)
+	while (z <= 4000000)
 	{
 		z = x + y;
 		x = y;
