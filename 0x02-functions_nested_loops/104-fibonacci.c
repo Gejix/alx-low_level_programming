@@ -9,7 +9,6 @@ int main(void)
 {
 	int k, boolean, boolean1;
 	long int num1, num2, fn, fn1, num11, num22;
-	
 	num1 = 1;
 	num2 = 2;
 	boolean = boolean1 = 1;
@@ -34,7 +33,7 @@ int main(void)
 				boolean1 = 0;
 			}
 			fn1 = (num11 + num22);
-			fn = num1 + num2 + ( fn1 / 1000000000);
+			fn = num1 + num2 + (fn1 / 1000000000);
 			printf(", %ld", fn);
 			printf("%ld", fn1 % 1000000000);
 			num1 = num2;
