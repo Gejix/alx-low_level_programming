@@ -40,7 +40,7 @@ int main(void)
 			num1 = num2;
 			num11 = num22;
 			num2 = fn;
-			num22 = fn1 % 1000000000);
+			num22 = (fn1 % 1000000000);
 		}
 		if (((num1 + num2) < 0) && boolean == 1)
 			boolean = 0;
