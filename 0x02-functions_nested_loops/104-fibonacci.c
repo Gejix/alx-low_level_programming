@@ -25,13 +25,13 @@ int main(void)
 		}
 		else
 		{
-			if (boolean2)
+			if (boolean1)
 			{
 				num11 = num1 % 1000000000;
 				num22 = num2 % 1000000000;
 				num1 = num1 / 1000000000;
 				num2 = num2 / 1000000000;
-				boolean2 = 0;
+				boolean1 = 0;
 			}
 			fn1 = (num11 + num22);
 			fn = num1 + num2 + ( fn1 / 1000000000);
