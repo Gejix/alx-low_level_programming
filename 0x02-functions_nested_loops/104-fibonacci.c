@@ -9,7 +9,7 @@ int main(void)
 {
 	int k, boolean, boolean1;
 	long int num1, num2, fn, fn1, num11, num22;
-	
+
 	num1 = 1;
 	num2 = 2;
 	boolean = boolean1 = 1;
