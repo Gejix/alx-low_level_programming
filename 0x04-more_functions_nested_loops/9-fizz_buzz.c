@@ -27,11 +27,11 @@ int main(void)
 		}
 		else if (x == 1)
 		{
-			printf("%d", x)
+			printf("%d", x);
 		}
 		else
 		{
-			printf(" %d", x)
+			printf(" %d", x);
 		}
 	}
 	printf("\n");
