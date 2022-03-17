@@ -6,22 +6,29 @@
  */
 void print_number(int n)
 {
-	unsigned int i;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
-		i = -n;
 		_putchar('-');
+		m = n * -1;
 	}
 	else
 	{
-		i = n;
+		m = n;
 	}
 
-	if (i / 10)
+	d = m;
+	count = 1;
+
+	while (d > 9)
 	{
-		print_number(i / 10);
+		d /= 10;
+		count *= 10;
 	}
 
-	_putchar((i % 10) + '0');
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }
