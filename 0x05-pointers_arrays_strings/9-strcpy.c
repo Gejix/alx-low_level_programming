@@ -3,7 +3,7 @@
 
 /**
  * _strcpy - A function that copies the string pointed to
- * by src, including the terminating null byte, to the 
+ * by src, including the terminating null byte, to the
  * buffer pointed to by dest
  * @dest: destination
  * @src: source
