@@ -1,4 +1,4 @@
-# more functions, more nested loops
+# More functions, more nested loops
 
 ## Files
 All of the following files are programs written in C:
