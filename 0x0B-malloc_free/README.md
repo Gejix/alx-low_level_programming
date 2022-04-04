@@ -17,3 +17,5 @@ All of the following files are programs written in C:
 | `2-str_concat.c` | Concatenates two strings |
 | `3-alloc_grid.c` | Returns a pointer to a 2 dimensional array of integers |
 | `4-free_grid.c` | Frees a 2 dimensional grid previously allocated in the heap memory |
+| `100-argstostr.c` | Concatenates all the arguments of our program |
+| `101-strow.c` | Splits a string into words |
