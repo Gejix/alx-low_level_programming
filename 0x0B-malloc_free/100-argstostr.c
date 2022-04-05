@@ -8,7 +8,7 @@
  *
  * Return: pointer of an array of char
  */
-char *argstostr(int ac, char **ac)
+char *argstostr(int ac, char **av)
 {
 	char *aout;
 	int c, i, j, ia;
