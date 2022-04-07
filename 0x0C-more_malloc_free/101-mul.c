@@ -93,7 +93,7 @@ int main(int argc, char *arg[])
 	if (nout == NULL)
 		printf("Error\n"), exit(98);
 	nout = _initialize_array(nout, lnout);
-	k = lnout - 1, i = ln1 -1, j = ln2 - 1, ca = addl = 0;
+	k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 	for (; k >= 0; k--, i--)
 	{
 		if (i < 0)
@@ -112,11 +112,11 @@ int main(int argc, char *arg[])
 			if (nout[0] != '0')
 				break;
 			lnout--;
-			free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnount);
+		free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnount);
 		}
 		if (j >= 0)
 		{
-			add = (( argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
+			add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
 			addl = add / 10, nout[k] = (add % 10) + '0';
 		}
 	}
