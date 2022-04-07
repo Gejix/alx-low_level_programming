@@ -113,6 +113,7 @@ int main(int argc, char *arg[])
 				break;
 			lnout--;
 		free(nout), nout = malloc(lnout + 1), nout = _initialize_array(nout, lnount);
+		k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 		}
 		if (j >= 0)
 		{
