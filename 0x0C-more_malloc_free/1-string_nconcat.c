@@ -30,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n > ls2)
 		n = ls2;
 
-	lsout =ls1 + n;
+	lsout = ls1 + n;
 
 	sout = malloc(lsout + 1);
 
