@@ -11,7 +11,7 @@
  * @age: age of the dog
  * @owner: ower of the dog
  *
- * Description: struct called "dag" that stores its name, its age
+ * Description: struct called "dog" that stores its name, its age
  * and the name of its ower.
  */
 struct dog
@@ -20,6 +20,8 @@ struct dog
 	float age;
 	char *owner;
 };
+
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
