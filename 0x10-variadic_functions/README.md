@@ -1,0 +1,18 @@
+# Variadic functions
+
+This Project was done during Full Stack Software Engineering studies at ALX school. The aim is to learn about variadic functions in **C language**.
+
+## Technologies
+* C files are complied using `gcc 4.8.4`
+* C files are written according to C90 standard
+* tested on Ubuntu 14.04 LTS
+
+## Files
+All of the following files are programs written in C:
+
+| Filename | Description |
+| -------- | ----------- |
+| `0-sum_them_all.c` | Returns the sum of all its parameters |
+| `1-print_numbers.c` | Prints numbers |
+| `2-print_strings.c` | Prints strings |
+| `3-print_all.c` | Prints anything |
