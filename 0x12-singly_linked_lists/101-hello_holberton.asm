@@ -1,11 +1,11 @@
-global main
-extern printf
+	global main
+	extern printf
 
-section .data
-	msg: db "Hello, Holberton",0
-	format: db "%s", 10, 0
+	section .data
+msg: 	db "Hello, Holberton",0
+format: db "%s", 10, 0
 
-section .text
+	section .text
 main:   push rbp
         mov rbp, rsp
 	sub rsp, 16
@@ -17,6 +17,3 @@ main:   push rbp
 	add rsp, 16
 	leave
 	ret
-
-section .bss
-	number resb 4
