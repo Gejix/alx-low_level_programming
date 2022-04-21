@@ -1,14 +1,18 @@
-        section .rodata
-str:    string "Hello, Holberton"
+global main
+extern printf
 
-        section .text
-        global main
-main:   push %rbp
-        mov %rsp, %rbp
+section .data
+msg db "Hello, Holberton", 0
 
-        lea str(%rip), %rdi
-        xor %al, %al
-        call printf
+section .bss
+section .text
+main:   push ebp
+        mov ebp, esp
 
-        leave
-        ret
+	push msg
+	call printf
+	add esp, 4
+
+        mov esp, ebp
+	pop ebp
+ret
