@@ -1,7 +1,3 @@
-	section .data
-msg: 	db "Hello, Holberton", 0
-format: db "%s", 10, 0
-
 	section .text
 	extern prinf
 	global main
@@ -13,3 +9,7 @@ main:
 
 	mov eax, 0
 	ret
+
+	section .data
+msg: 	db "Hello, Holberton", 0
+format: db "%s", 10, 0
