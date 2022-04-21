@@ -1,8 +1,8 @@
-        .section .rodata
-str:    .string "Hello, Holberton"
+        section .rodata
+str:    string "Hello, Holberton"
 
-        .section .text
-        .global main
+        section .text
+        global main
 main:   push %rbp
         mov %rsp, %rbp
 
