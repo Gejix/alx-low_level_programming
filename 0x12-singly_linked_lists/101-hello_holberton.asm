@@ -8,10 +8,10 @@ main:
 	mov rdi, fmt
 	mov rsi, message
 	mov rax, 0
-	
+
 	call printf wrt ..plt
 	pop rbp
-	
+
 	mov rax,0
 	ret
 
