@@ -1,20 +1,16 @@
-section .text
-	default rel
+	SECTION .data
+msg:	db "Hello, Holberton", 0
+fmt:	db "%s", 10, 0
+
+	SECTION .text
 	extern printf
 	global main
 
 main:
-	push rbp
-	mov rdi, fmt
-	mov rsi, message
-	mov rax, 0
+	mov esi, msg
+	mov edi, fmt
+	mov eax, 0
+	call printf
 
-	call printf wrt ..plt
-	pop rbp
-
-	mov rax,0
+	mov eax, 0
 	ret
-
-section .data
-	message: db "Hello, Holberton", 10, 0
-	fmt: db "%s", 10, 0
