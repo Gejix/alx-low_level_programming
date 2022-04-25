@@ -6,7 +6,7 @@
  * @head: head of a list
  * Return: no return
  */
-void pop_listint(listint_t **head)
+int pop_listint(listint_t **head)
 {
 	int headnode;
 	listint_t *temp;
