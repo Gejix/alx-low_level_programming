@@ -11,7 +11,7 @@
  *
  * Description: singly linked list node structure
  *
- * for Holberton project
+ * for ALX project
  *
  */
 
