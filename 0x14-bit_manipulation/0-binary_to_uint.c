@@ -21,6 +21,9 @@ unsigned int binary_to_uint(const char *b)
 	i = (len - 1);
 	for (; i >= 0; i--)
 	{
+		if (b[i] != '0' && b[i] != '1')
+			return (0);
+
 		if (b[i] == '1')
 			total += decval;
 		decval *= 2;
