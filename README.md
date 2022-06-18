@@ -34,3 +34,4 @@ All of the following files are programs written in C:
 | `0x13-more_singly_linked_lists`	|It aims to learn about singly linked lists **in C language** |
 | `0x14-bit_manipulation`	| It aims to learn about how to manipulate bits and use bitwise operators **in C language** |
 | `0x15-file_io` | It aim is to learn about how to handle files (open, close, read and write), file discriptors, system calls and file permission in **C language** |
+| `0x17-doubly_linked_lists` | It aims to learn about doubly linked list in C **C language** |
